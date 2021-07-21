@@ -1,4 +1,4 @@
-import 'package:reactive_forms/reactive_forms.dart';
+import 'package:reactive_forms/src/models/models.dart';
 import 'package:reactive_forms/src/utils/control_utils.dart';
 
 /// This is an extension on [AbstractControl].

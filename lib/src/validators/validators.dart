@@ -2,8 +2,9 @@
 // Use of this source code is governed by the MIT license that can be
 // found in the LICENSE file.
 
-import 'package:reactive_forms/reactive_forms.dart';
+import 'package:reactive_forms/src/models/models.dart';
 import 'package:reactive_forms/src/validators/any_validator.dart';
+import 'package:reactive_forms/src/validators/compare_option.dart';
 import 'package:reactive_forms/src/validators/compare_validator.dart';
 import 'package:reactive_forms/src/validators/compose_or_validator.dart';
 import 'package:reactive_forms/src/validators/compose_validator.dart';
@@ -22,6 +23,7 @@ import 'package:reactive_forms/src/validators/pattern/pattern_evaluator.dart';
 import 'package:reactive_forms/src/validators/pattern/regex_pattern_evaluator.dart';
 import 'package:reactive_forms/src/validators/pattern_validator.dart';
 import 'package:reactive_forms/src/validators/required_validator.dart';
+import 'package:reactive_forms/src/validators/validation_message.dart';
 
 /// Signature of a function that receives a control and synchronously
 /// returns a map of validation errors if present, otherwise null.

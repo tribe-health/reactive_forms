@@ -4,8 +4,9 @@
 
 import 'dart:async';
 
-import 'package:flutter/foundation.dart';
-import 'package:reactive_forms/reactive_forms.dart';
+// import 'package:flutter/foundation.dart';
+import 'package:reactive_forms/src/exceptions/value_accessor_exception.dart';
+import 'package:reactive_forms/src/models/models.dart';
 
 /// Type of the function to be called when the control emits a value changes
 /// event.
@@ -73,7 +74,7 @@ abstract class ControlValueAccessor<ModelDataType, ViewDataType> {
   }
 
   /// Disposes the value accessors.
-  @mustCallSuper
+  // @mustCallSuper
   void dispose() {
     _onChangeSubscription?.cancel();
   }

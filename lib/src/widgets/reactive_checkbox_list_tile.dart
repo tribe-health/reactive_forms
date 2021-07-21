@@ -3,7 +3,8 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:reactive_forms/reactive_forms.dart';
+import 'package:reactive_forms/src/models/models.dart';
+import 'package:reactive_forms/src/widgets/reactive_form_field.dart';
 
 /// This is a convenience widget that wraps a [CheckboxListTile] widget in a
 /// [ReactiveCheckboxListTile].

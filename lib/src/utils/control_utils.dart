@@ -1,4 +1,4 @@
-import 'package:reactive_forms/reactive_forms.dart';
+import 'package:reactive_forms/src/models/models.dart';
 
 /// Utility class for [AbstractControl]
 abstract class Control {

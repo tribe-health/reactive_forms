@@ -1,4 +1,4 @@
-import 'package:reactive_forms/reactive_forms.dart';
+import 'package:reactive_forms/src/exceptions/reactive_forms_exception.dart';
 
 /// Represents an exception thrown by a validator
 class ValidatorException extends ReactiveFormsException {

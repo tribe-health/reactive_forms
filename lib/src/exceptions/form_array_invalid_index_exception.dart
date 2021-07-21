@@ -2,7 +2,7 @@
 // Use of this source code is governed by the MIT license that can be
 // found in the LICENSE file.
 
-import 'package:reactive_forms/reactive_forms.dart';
+import 'package:reactive_forms/src/exceptions/reactive_forms_exception.dart';
 
 /// This exception is thrown when the index used to access a control in a
 /// [FormArray] is not a valid integer number.

@@ -4,8 +4,8 @@
 
 import 'dart:async';
 
-import 'package:flutter/foundation.dart';
-import 'package:reactive_forms/reactive_forms.dart';
+// import 'package:flutter/foundation.dart';
+import 'package:reactive_forms/src/models/models.dart';
 
 /// The base class form [FormGroup] and [FormArray].
 /// Its provides methods for get a control by name and a [Listenable]
@@ -40,7 +40,7 @@ abstract class FormControlCollection<T> {
   /// Notify to listeners that the collection changed.
   ///
   /// This is for internal use only.
-  @protected
+  // @protected
   void emitsCollectionChanged(List<AbstractControl<Object?>> controls) {
     _collectionChanges.add(List.unmodifiable(controls));
   }
